@@ -15,9 +15,7 @@ export function applyNumber(number){
 }
 
 export function changeOperator(operator){
-    return({type:CHANGE_OPERATION, payload: operator});
-}
-
+    return({type:CHANGE_Od
 export function memoryActions(action, memory){
     if(action === "M+"){
       return({type:SET_MEMORY});
